@@ -1,0 +1,31 @@
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Biến môi trường
+.env
+
+# Files tạm và cache của Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env.bak/
+venv.bak/
+
+# Logs sinh ra trong quá trình chạy
+logs/
+uploader/logs/
+
+# Thư mục tạm và dữ liệu cào về
+uploader/temp_chunks/
+crawler/articles/
+crawler/state.json
+
+# Cấu hình IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
